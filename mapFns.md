@@ -78,9 +78,9 @@ Draws text at a point.
 |                is also an array             |
 |         |   unique: true                    |
 ```
- - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].  If so, text *must* be an array, and `props` *can* also vary by point if also provided as an array.   
- - If `coords` is an array, then `text` must also be an array, so that the text for each point can vary.
- - 
+ - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].   
+ - If so, then `text` *must* also be an array, so that the text for each point can vary.
+ - If so, `props` *can* also vary by point if it is an array.  
  
 ## plotLine( )
 Draws a line from point 0 to point 1.
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NDg3ODY3LC0xNTIxNDY2ODU4XX0=
+eyJoaXN0b3J5IjpbNDA2NDAwNTY4XX0=
 -->
