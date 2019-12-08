@@ -79,7 +79,7 @@ Draws text at a point.
 |         |   unique: true                    |
 ```
  - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].   
- - If so, then `text` *must* also be an array, so that the text for each point can vary.
+ - If so, `text` *must* also be an array, so that the text for each point can vary.
  - If so, `props` *can* also vary by point if it is an array.  
  
 ## plotLine( )
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NDAwNTY4XX0=
+eyJoaXN0b3J5IjpbNzk1OTA5NTMzXX0=
 -->
