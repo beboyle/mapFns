@@ -10,7 +10,7 @@ Several of the arguments are common among all functions.
 #### map
 `map` object to plot onto
 #### id
-The id needs to be unique, so to handle larger volumes of plotting, the id specified can be made unique by adding a timestamp plus a random number to it.  This can be suppressed by the "unique" option.
+The id needs to be unique, so to handle larger volumes of plotting, the id specified can be made unique by adding a timestamp plus a random number to it.  This can be suppressed by the `"unique":false` option.
 #### coords
 A single point as a 2-element array `[lng,lat],` or
 an array of points such as
@@ -153,7 +153,7 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 ```
 
  - Note that coords is actually an array of points (which are in turn arrays of [lng,lat].  First and last coordinate points must be the same. 
- - You *can* specify an outlineWidth greater than 1.  DBecause this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
+ - You *can* specify an outlineWidth greater than 1.  Because this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
 
 ---
 ### Option Properties Common to Most Functions
@@ -195,5 +195,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkxODExMzFdfQ==
+eyJoaXN0b3J5IjpbMTIwNjEzNjcyOF19
 -->
