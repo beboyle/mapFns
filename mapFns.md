@@ -27,7 +27,7 @@ Draws a circle at a point.
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness)  |
 | coords  | [lng,lat] (center of circle)      |
-|               can also be an array to plot  |
+|              can also be an array to plot   |
 |                   multiple circles          |
 | options | object: defaults                  |
 |         |   color: "red"                    |
@@ -40,7 +40,7 @@ Draws a circle at a point.
 |         |   strokeOpacity: 0.8 (0 to 1)     |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {} additional properties |
+|         |   props: {}     custom properties |
 |                can be an array if coords    |
 |                is also an array             |
 |         |   unique: true                    |
@@ -73,7 +73,7 @@ Draws text at a point.
 |                           "uppercase")      | 
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {} additional properties |
+|         |   props: {}     custom properties |
 |                can be an array if coords    |
 |                is also an array             |
 |         |   unique: true                    |
@@ -121,7 +121,7 @@ Draws a multi-segment line from point 0 to point 1 to point 2, etc.
 |         |   translate: [0, 0]  in px        |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {} additional properties |
+|         |   props: {}   custom properties |
 |         |   unique: true                    |
 ```
 
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg0MTUyOV19
+eyJoaXN0b3J5IjpbLTE0MDkzMTA3ODcsLTExNDg0MTUyOV19
 -->
