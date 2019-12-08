@@ -112,7 +112,7 @@ Draws a multi-segment line from point 0 to point 1 to point 2, etc.
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness   |
 | coords  | e.g., [ [lng0,lat0], [lng1,lat1], | 
-|		  |			 [lng2,lat2], ... ]  	  |
+|              [lng2,lat2], [lng3,lat3], ...] |
 | options | object: defaults                  |
 |         |   color: "blue"                   |
 |         |   width: 1                        |
@@ -193,5 +193,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM2MjgxNzddfQ==
+eyJoaXN0b3J5IjpbMzYwMjIxMzkxLC0xMTUzNjI4MTc3XX0=
 -->
