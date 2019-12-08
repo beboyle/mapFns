@@ -1,6 +1,6 @@
 ﻿
 # MapPlotFns
-Note that these functions all create a new Mapbox GL JS map layer with id, paint, and source. 
+Note that these functions all create a new Mapbox GL JS map layer with id, paint, and source.   They are essentially wrappers around map.addLayer( ) coding.
 
 ### Usage
     import { plotCircle, plotText, plotLine, plotMultiLine, plotPolygon } from  '../js/mapFns'
@@ -195,5 +195,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjEzNjcyOF19
+eyJoaXN0b3J5IjpbMjEzMjIyNDU5MV19
 -->
