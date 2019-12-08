@@ -17,6 +17,7 @@ A library of javascript functions designed to create a new Mapbox GL JS map laye
 	- getLayerIds( )  
 	- getSourceIds( ) 
 - Notes on Scaling
+- Roadmap
 
 ### Installation
 
@@ -225,5 +226,5 @@ This means that as a map scales, the circle and text remain essentially the same
 ### Roadmap
 My plan is to expand these functions to include support for simplified mapping of icons, as well as data that is related to driving routes between points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDQxNDMyOV19
+eyJoaXN0b3J5IjpbLTE4NjczNjUyNDBdfQ==
 -->
