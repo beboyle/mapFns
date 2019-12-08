@@ -55,8 +55,8 @@ Draws text at a point.
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness   |
 | coords  | [lng,lat]                         |
-|		  |		can also be an array to plot  |
-|		  |			multiple text instances	  |
+|              can also be an array to plot   |
+|              multiple text instances        |
 | text    | text to plot                      |
 |		  |		must be an array if coords	  |
 |		  |			is also an array		  |
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTEzMjk0NF19
+eyJoaXN0b3J5IjpbNzQ3NzMxNjQ4LDE1MDUxMzI5NDRdfQ==
 -->
