@@ -45,7 +45,7 @@ Draws a circle at a point.
 |                is also an array             |
 |         |   unique: true                    |
 ```
- - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc
+ - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc.), but will need to be plotted individually.
  
 ## plotText( )
 Draws text at a point.
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMzQ3MTYzLDE3ODk4NzY5ODRdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTI4ODM1XX0=
 -->
