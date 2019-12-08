@@ -143,8 +143,8 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 |         |   outlineColor: "#000000"         |
 |         |   outlineWidth: 0                 |
 |         |   outlineOpacity: 0.8             |
-|         |   outlineBlur: 0      |
-|         |   translate: [0,0] (in px)    |
+|         |   outlineBlur: 0                  |
+|         |   translate: [0,0] (in px)        |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
 |         |   props: {}     custom properties |
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Nzk0NjIxNSwtMTE0ODQxNTI5XX0=
+eyJoaXN0b3J5IjpbMTc5NjM0MjI5N119
 -->
