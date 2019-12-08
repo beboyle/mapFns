@@ -58,8 +58,8 @@ Draws text at a point.
 |              can also be an array to plot   |
 |              multiple text instances        |
 | text    | text to plot                      |
-|		  |		must be an array if coords	  |
-|		  |			is also an array		  |
+|              must be an array if coords     |
+|              is also an array               |
 | options | object: defaults                  |
 |         |   size: 12                        |
 |         |   color: "black"                  |
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NzMxNjQ4XX0=
+eyJoaXN0b3J5IjpbNTM4MjkyNTY4XX0=
 -->
