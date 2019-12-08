@@ -121,7 +121,7 @@ Draws a multi-segment line from point 0 to point 1 to point 2, etc.
 |         |   translate: [0, 0]  in px        |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {}   custom properties |
+|         |   props: {}     custom properties |
 |         |   unique: true                    |
 ```
 
@@ -140,14 +140,14 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 | options | object: defaults                  |
 |         |   color: "#ffffff" (fill)         |
 |         |   opacity: 0.8 (fill)             |
-|         |   outlineColor: "#000000"     	  |
-|         |   outlineWidth: 0			      |
-|         |   outlineOpacity: 0.8		      |
-|         |   outlineBlur: 0			      |
+|         |   outlineColor: "#000000"         |
+|         |   outlineWidth: 0                 |
+|         |   outlineOpacity: 0.8             |
+|         |   outlineBlur: 0      |
 |         |   translate: [0,0] (in px)    |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {} additional properties |
+|         |   props: {}     custom properties |
 |         |   unique: true                    |
 ```
 
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkzMTA3ODcsLTExNDg0MTUyOV19
+eyJoaXN0b3J5IjpbLTI0Nzk0NjIxNSwtMTE0ODQxNTI5XX0=
 -->
