@@ -162,12 +162,15 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
  **unique:** If true, ensures that the layer id is unique.
 
 ### Layers and Sources
-When Mapbox adds a layer it also adds a
+When Mapbox adds a layer it also adds a source.  Both of these are given a unique id that Mapbox keeps track of.  Two helper functions are provided to access the list of ids.
+
+function  getLayerIds(map)
 
 
 >  [StackEdit](https://stackedit.io/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTI5ODMxNCwtMTk5NzUyNDE3Nl19
+eyJoaXN0b3J5IjpbLTE5NjY4MzAxMzksLTE5OTc1MjQxNzZdfQ
+==
 -->
