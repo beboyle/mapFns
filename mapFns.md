@@ -16,8 +16,9 @@ A library of javascript functions designed to create a new Mapbox GL JS map laye
 - Notes
 
 ### Installation
-Download the repository
-Include the .js file in your project directory
+
+ 1. Download the repository 
+ 2. Copy the .js file in your project directory ( e.g., ../js/mapFns )
 
 ### Usage
     import { plotCircle, plotText, plotLine, plotMultiLine, plotPolygon } from  '../js/mapFns'
@@ -212,5 +213,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDU3NjU5MiwxNjQxNjI2MjA5XX0=
+eyJoaXN0b3J5IjpbLTE5MDE1NDI0OTEsMTY0MTYyNjIwOV19
 -->
