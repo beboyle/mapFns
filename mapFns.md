@@ -218,7 +218,7 @@ The line and polygon functions draw lines between points that are measure in [ln
 This means that as a map scales, the circle and text remain essentially the same size, while the line and polygon shapes scale accordingly.
 
 ### Roadmap
-My plan is to expand these functions to include support for mapping icons.
+My plan is to expand these functions to include support for simplified mapping of icons, as well as data that is related to driving routes between points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTQ3ODY5OCwxNjQxNjI2MjA5XX0=
+eyJoaXN0b3J5IjpbLTc3MzYxMzU1MF19
 -->
