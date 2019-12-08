@@ -13,9 +13,9 @@ Several of the arguments are common among all functions.
 The id needs to be unique, so to handle larger volumes of plotting, the id specified can be made unique by adding a timestamp plus a random number to it.  This can be suppressed by the "unique" option.
 #### coords
 A single point as a 2-element array [lng,lat], or
-an array of points such as [ [lng0,lat0], [lng1,lat1], ...  ]
+an array of points such as [ [lng0,lat0], [lng1,lat1], [lng2,lat2], ...  ]
 #### options
-An object with properties that dictate layout and paint properties of the plotted item.
+An object that defines layout and paint properties of the plotted item.
 
 
 
@@ -194,5 +194,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA5MjcyNzZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzE4NDI2NjVdfQ==
 -->
