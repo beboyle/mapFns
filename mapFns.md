@@ -164,15 +164,15 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 ### Layers and Sources
 When Mapbox adds a layer it also adds a source.  Both of these are given a unique id that Mapbox keeps track of.  Two helper functions are provided to access the list of ids.
 
-- getLayerIds( map )
+#### getLayerIds( map )
+Returns an array of layer ids
 
-Returns an array of 
+#### getSourceIds( map )
 
-- getSourceIds( map )
-
-Each returns an 
+Each returns an object with keys equal to the source id
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTA5MzQzMywtMTk5NzUyNDE3Nl19
+eyJoaXN0b3J5IjpbLTE4NTcwNTg4OTMsLTE5OTc1MjQxNzZdfQ
+==
 -->
