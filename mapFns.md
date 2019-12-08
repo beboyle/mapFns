@@ -189,10 +189,9 @@ Of course you will need to add these to the import
 
      import { getLayerIds, getSourceIds } from  '../js/mapFns'
 
-
+These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDc4NTA4OSwtMTA0MjExOTczMywtMT
-k5NzUyNDE3Nl19
+eyJoaXN0b3J5IjpbLTExNTM2MjgxNzddfQ==
 -->
