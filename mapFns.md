@@ -42,7 +42,7 @@ Draws a circle at a point.
 |         |   maxzoom: 22                     |
 |         |   props: {} additional properties |
 |                can be an array if coords    |
-|		  |			is also an array		  |
+|                is also an array             |
 |         |   unique: true                    |
 ```
  - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].  If so, `props` can also vary by point if  also provided as an array. 
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTI2OTI2Ml19
+eyJoaXN0b3J5IjpbMTc4OTg3Njk4NF19
 -->
