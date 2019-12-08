@@ -167,7 +167,7 @@ When Mapbox adds a layer it also adds a source.  Both of these are given a uniqu
 #### getLayerIds( map )
 Returns an array of layer ids
 
-    // log all the layers
+    // log all layers
     const allMyLayers = getLayerIds(map)
     console.log( "allMyLayers", allMyLayers )
 
@@ -176,14 +176,14 @@ Returns an array of layer ids
 
 Returns an object with keys equal to the source ids, and values equal to the data in the source (with geometry and properties).
 
-    // log all the sources
+    // log all sources
     const  allMySources  =  getSourceIds(map)
-    console.log("allMySources", allMySources)
+    console.log( "allMySources", allMySources )
     let  j=0;
     Object.keys(allMySources).forEach(function (item) {
-    console.log("source#",j,item); // key
-    j++;
-    //console.warn(allMySources[item]); // value
+      console.log("source#",j,item); // key
+      j++;
+      //console.warn(allMySources[item]); // value
     });
 
 #### Usage
@@ -195,5 +195,6 @@ Of course you will need to add these to the import
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzkyMDE2OSwtMTk5NzUyNDE3Nl19
+eyJoaXN0b3J5IjpbLTEwNDIxMTk3MzMsLTE5OTc1MjQxNzZdfQ
+==
 -->
