@@ -1,4 +1,4 @@
-
+﻿
 # MapPlotFns
 Note that these functions all create a new Mapbox GL JS map layer with id, paint, and source. 
 
@@ -151,7 +151,7 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 ```
 
  - Note that coords is actually an array of points (which are in turn arrays of [lng,lat].  First and last coordinate points must be the same. 
- - You *can* specify an outlineWidth greater than 1.  Doing so will automatically create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
+ - You *can* specify an outlineWidth greater than 1.  Doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
 
 
 ### Option Properties:
@@ -165,6 +165,3 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 >  [StackEdit](https://stackedit.io/).
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODI3MjM0Ml19
--->
