@@ -177,13 +177,11 @@ Returns an array of layer ids
 Returns an object with keys equal to the source ids, and values equal to the data in the source (with geometry and properties).
 
     // log all sources
-    const  allMySources  =  getSourceIds(map)
+    const allMySources = getSourceIds(map)
     console.log( "allMySources", allMySources )
-    let  j=0;
+
     Object.keys(allMySources).forEach(function (item) {
-      console.log("source#",j,item); // key
-      j++;
-      //console.warn(allMySources[item]); // value
+      console.log(item); // key
     });
 
 #### Usage
@@ -195,6 +193,6 @@ Of course you will need to add these to the import
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIxMTk3MzMsLTE5OTc1MjQxNzZdfQ
-==
+eyJoaXN0b3J5IjpbLTY5NDc4NTA4OSwtMTA0MjExOTczMywtMT
+k5NzUyNDE3Nl19
 -->
