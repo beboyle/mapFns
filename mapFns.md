@@ -25,8 +25,8 @@ Draws a circle at a point.
 ```    plotCircle( map, id, coords, options )```
 ```
 | map     | map object to plot onto           |
-| id      | layer id (before the uniqueness )  |
-| coords  | [lng,lat] (center of circle);     |
+| id      | layer id (before the uniqueness)  |
+| coords  | [lng,lat] (center of circle)      |
 |               can also be an array to plot  |
 |                   multiple circles          |
 | options | object: defaults                  |
@@ -53,7 +53,7 @@ Draws text at a point.
     plotText( map, id, coords, text, options )
 ```
 | map     | map object to plot onto           |
-| id      | layer id (before the uniqueness )  |
+| id      | layer id (before the uniqueness)  |
 | coords  | [lng,lat]                         |
 |              can also be an array to plot   |
 |              multiple text instances        |
@@ -89,7 +89,7 @@ Draws a line from point 0 to point 1.
 
 ```
 | map     | map object to plot onto           |
-| id      | layer id (before the uniqueness )  |
+| id      | layer id (before the uniqueness)  |
 | coords  | e.g., [[lng0,lat0], [lng1,lat1]]  |
 | options | object: defaults                  |
 |         |   color: "blue"                   |
@@ -99,7 +99,7 @@ Draws a line from point 0 to point 1.
 |         |   translate: [0, 0]  in px        |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
-|         |   props: {} additional properties |
+|         |   props: {}     custom properties |
 |         |   unique: true                    |
 ```
 
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTQ5OTk5OCwxODQ4Mjc3NjM1XX0=
+eyJoaXN0b3J5IjpbLTExNDg0MTUyOV19
 -->
