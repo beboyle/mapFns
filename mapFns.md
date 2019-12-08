@@ -189,8 +189,8 @@ When Mapbox adds a layer it also adds a source.  Both of these are given a uniqu
 
 #### getLayerIds( map )
 Returns an array of layer ids
-
-    // log all layers
+Example:  
+// log all layers
     const allMyLayers = getLayerIds(map)
     console.log( "allMyLayers", allMyLayers )
 
@@ -223,5 +223,5 @@ This means that as a map scales, the circle and text remain essentially the same
 ### Roadmap
 My plan is to expand these functions to include support for simplified mapping of icons, as well as data that is related to driving routes between points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIyNzY2NDFdfQ==
+eyJoaXN0b3J5IjpbNjc4OTc0ODk1LC0xNzYyMjc2NjQxXX0=
 -->
