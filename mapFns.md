@@ -214,8 +214,8 @@ These ids will be useful if you need to remove a layer or change its visibility.
 ### Notes
 plotCircle() draws a circle with a radius that is measured in pixels.
 plotText() draws text that is measured in pixels.
-
-The other functions draw lines between 
+The line and polygon functions draw lines between points that are measure in [lng,lat] coordinates.
+This means that as a map scales, the circle and text remain essentially the same size, while the line and polygon shapes scale accordingly.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTMzMDI5MCwxNjQxNjI2MjA5XX0=
+eyJoaXN0b3J5IjpbMTIzNTAwMzMxOCwxNjQxNjI2MjA5XX0=
 -->
