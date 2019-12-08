@@ -175,25 +175,16 @@ Returns an array of layer ids
 #### getSourceIds( map )
 
 Returns an object with keys equal to the source ids, and values equal to the data in the source (with geometry and properties).
-// log all the sources
-const  allMySources  =  getSourceIds(map)
 
-console.log("allMySources",allMySources.length,allMySources)
-
-  
-
-let  js=0;
-
-Object.keys(allMySources).forEach(function (item) {
-
-console.warn("source#",js,item); // key
-
-js++;
-
-//console.warn(allMySources[item]); // value
-
-});
-
+    // log all the sources
+    const  allMySources  =  getSourceIds(map)
+    console.log("allMySources", allMySources)
+    let  j=0;
+    Object.keys(allMySources).forEach(function (item) {
+    console.log("source#",j,item); // key
+    j++;
+    //console.warn(allMySources[item]); // value
+    });
 
 #### Usage
 Of course you will need to add these to the import
@@ -201,6 +192,8 @@ Of course you will need to add these to the import
      import { getLayerIds, getSourceIds } from  '../js/mapFns'
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NzIzNDY5LC0xOTk3NTI0MTc2XX0=
+eyJoaXN0b3J5IjpbLTgzNzkyMDE2OSwtMTk5NzUyNDE3Nl19
 -->
