@@ -152,7 +152,7 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 ```
 
  - Note that coords is actually an array of points (which are in turn arrays of [lng,lat].  First and last coordinate points must be the same. 
- - You *can* specify an outlineWidth greater than 1.  Doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
+ - You *can* specify an outlineWidth greater than 1.  DBecause this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
 
 
 ### Option Properties:
@@ -167,5 +167,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjM0MjI5N119
+eyJoaXN0b3J5IjpbLTE5OTc1MjQxNzYsMTc5NjM0MjI5N119
 -->
