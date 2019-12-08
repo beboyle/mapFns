@@ -13,7 +13,7 @@ A library of javascript functions designed to create a new Mapbox GL JS map laye
 -- plotPolygon( )
 - Option Properties Common to Most Functions
 - Layers and Sources
-- Notes
+- Notes on Scaling
 
 ### Installation
 
@@ -211,11 +211,14 @@ Of course you will need to add these to the import
 
 These ids will be useful if you need to remove a layer or change its visibility.
 
-### Notes
+### Notes on Scaling
 plotCircle() draws a circle with a radius that is measured in pixels.
 plotText() draws text that is measured in pixels.
 The line and polygon functions draw lines between points that are measure in [lng,lat] coordinates.
 This means that as a map scales, the circle and text remain essentially the same size, while the line and polygon shapes scale accordingly.
+
+### Roadmap
+My plan is to expand these functions to include support for mapping icons.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTAwMzMxOCwxNjQxNjI2MjA5XX0=
+eyJoaXN0b3J5IjpbMTE3OTQ3ODY5OCwxNjQxNjI2MjA5XX0=
 -->
