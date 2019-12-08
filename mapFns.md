@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NzMxNjQ4LDE1MDUxMzI5NDRdfQ==
+eyJoaXN0b3J5IjpbNzQ3NzMxNjQ4XX0=
 -->
