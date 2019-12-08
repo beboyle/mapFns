@@ -155,11 +155,11 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
  - You *can* specify an outlineWidth greater than 1.  DBecause this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
 
 ---
-### Option Properties Common to 
+### Option Properties Common to Most Functions
  **minzoom:** The minimum zoom level at which this layer becomes visible.
  **maxzoom:** The maximum zoom level to which this layer is visible.
  **props:** This object is added to the layer source/data object to set custom properties, using the property "properties".  Usually the properties object consists of single-depth key⇢value mappings.
- **unique:** If true, ensures that the layer id is unique.
+ **unique:** If true, ensures that the layer id is unique (by adding a timestamp and random number).
  
 ---
 ### Layers and Sources
@@ -194,5 +194,5 @@ These ids will be useful if you need to remove a layer or change its visibility.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwODE1MTc3LDM2MDIyMTM5MV19
+eyJoaXN0b3J5IjpbLTEzMjA5MjcyNzZdfQ==
 -->
