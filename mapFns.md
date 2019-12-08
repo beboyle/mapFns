@@ -6,9 +6,9 @@ A library of javascript functions designed to create a new Mapbox GL JS map laye
 - Usage
 - Common Arguments
 - Functions  
-- plotCircle()  
+	- plotCircle()  
 	- plotText( )
-> plotLine( )  
+	- plotLine( )  
 > plotMultiLine( )  
 > plotPolygon( )  
 
@@ -221,5 +221,5 @@ This means that as a map scales, the circle and text remain essentially the same
 ### Roadmap
 My plan is to expand these functions to include support for simplified mapping of icons, as well as data that is related to driving routes between points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODYwMTUzOCwtODE0NjMwMjVdfQ==
+eyJoaXN0b3J5IjpbNTk1NDQ2MDY3XX0=
 -->
