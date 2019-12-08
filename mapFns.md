@@ -190,7 +190,8 @@ When Mapbox adds a layer it also adds a source.  Both of these are given a uniqu
 #### getLayerIds( map )
 Returns an array of layer ids
 Example:  
-// log all layers
+
+    // log all layers
     const allMyLayers = getLayerIds(map)
     console.log( "allMyLayers", allMyLayers )
 
@@ -198,6 +199,7 @@ Example:
 #### getSourceIds( map )
 
 Returns an object with keys equal to the source ids, and values equal to the data in the source (with geometry and properties).
+Example:
 
     // log all sources
     const allMySources = getSourceIds(map)
@@ -208,11 +210,11 @@ Returns an object with keys equal to the source ids, and values equal to the dat
     });
 
 #### Usage
-Of course you will need to add these to the import
+Of course you will need to add these to the import list.
 
      import { getLayerIds, getSourceIds } from  '../js/mapFns'
 
-These ids will be useful if you need to remove a layer or change its visibility.
+These ids will be useful should you need to remove a layer or change its visibility.
 
 ### Notes on Scaling
 plotCircle() draws a circle with a radius that is measured in pixels.
@@ -223,5 +225,5 @@ This means that as a map scales, the circle and text remain essentially the same
 ### Roadmap
 My plan is to expand these functions to include support for simplified mapping of icons, as well as data that is related to driving routes between points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4OTc0ODk1LC0xNzYyMjc2NjQxXX0=
+eyJoaXN0b3J5IjpbMTYzMDQxNDMyOV19
 -->
