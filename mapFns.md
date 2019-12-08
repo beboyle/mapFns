@@ -6,7 +6,7 @@ Note that these functions all create a new Mapbox GL JS map layer with id, paint
     import { plotCircle, plotText, plotLine, plotMultiLine, plotPolygon } from  '../js/mapFns'
 
 ### Common arguments
-Several of the arguments are common among all plot functions.
+Several of the arguments are common among all functions.
 #### map
 `map` object to plot onto
 #### id
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc2MjI5MzFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzAwMTAxNzRdfQ==
 -->
