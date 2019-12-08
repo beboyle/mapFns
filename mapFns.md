@@ -211,7 +211,11 @@ Of course you will need to add these to the import
 
 These ids will be useful if you need to remove a layer or change its visibility.
 
+### Notes
+plotCircle() draws a circle with a radius that is measured in pixels.
+plotText() draws text that is measured in pixels.
 
+The other functions draw lines between 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE1NDI0OTEsMTY0MTYyNjIwOV19
+eyJoaXN0b3J5IjpbMTc4OTMzMDI5MCwxNjQxNjI2MjA5XX0=
 -->
