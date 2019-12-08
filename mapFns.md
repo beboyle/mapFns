@@ -70,12 +70,12 @@ Draws text at a point.
 |         |   maxWidth: 32 (ems, for wrapping)|  
 |         |   rotate: 0 (degrees)             | 
 |         |   transform: "none" ("lowercase", |
-|         |                 "uppercase")      | 
+|                           "uppercase")      | 
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
 |         |   props: {} additional properties |
-|		  |			can be an array if coords |
-|		  |			is also an array		  |
+|                can be an array if coords    |
+|                is also an array             |
 |         |   unique: true                    |
 ```
  - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].  If so, `props` can also vary by point if  also provided as an array.   
@@ -166,5 +166,5 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MjkyNTY4XX0=
+eyJoaXN0b3J5IjpbNTI4MzMwNiw1MzgyOTI1NjhdfQ==
 -->
