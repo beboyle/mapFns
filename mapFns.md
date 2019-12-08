@@ -169,10 +169,9 @@ Returns an array of layer ids
 
 #### getSourceIds( map )
 
-Each returns an object with keys equal to the source id
+Each returns an object with keys equal to the source ids, and values equal to the data in the source (geometry and properties)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcwNTg4OTMsLTE5OTc1MjQxNzZdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMjMxOTQ3OSwtMTk5NzUyNDE3Nl19
 -->
