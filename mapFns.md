@@ -62,7 +62,7 @@ Draws a circle at a point.
 |          | strokeWidth: 0                                                             |
 |          | strokeOpacity: 0.8 (0 to 1)                                                |
 |          | blur: 0 (0 to 1)                                                           |
-|          | zoomtThresholds: [11,14]        |
+|          | zoomThresholds: [11,14]        |
 |          | zoomDivisor: 4   |
 |          | minzoom: 1                                                                 |
 |          | maxzoom: 22                                                                |
@@ -73,7 +73,7 @@ Draws a circle at a point.
 
 
  - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc.).  If they need to vary by point their circles will need to be plotted individually.
- - The `zoomThreshold` array controls when the radius starts to shrink as you zoom out.  The radius starts to shrink at the higher end of the [11,**14** ] array.   When the zoom level reaches the lower end of the [**11**,14] array, the radius will have shrunk by a factor equal to the `zoomDivisor` (default is radius shrinks by a factor of 4 at zoom level of 11).  Continuing to zoom out past that will not shrink the radius further.
+ - The `zoomThresholds` array controls when the radius starts to shrink as you zoom out.  The radius starts to shrink at the higher end of the [11,**14** ] array.   When the zoom level reaches the lower end of the [**11**,14] array, the radius will have shrunk by a factor equal to the `zoomDivisor` (default is radius shrinks by a factor of 4 at zoom level of 11).  Continuing to zoom out past that will not shrink the radius further.
  
 ## plotText( )
 Draws text at a point.
@@ -233,6 +233,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1NjY0MDExLDgzNDMxMzAyMiwyNzc5OT
-UwNzNdfQ==
+eyJoaXN0b3J5IjpbMTgxOTYyMzE2NCw4MzQzMTMwMjIsMjc3OT
+k1MDczXX0=
 -->
