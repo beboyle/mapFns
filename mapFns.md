@@ -51,8 +51,8 @@ Draws a circle at a point.
 | ------- | --------------------------------- |
 | id      | layer id (before the uniqueness)  |
 | coords  | [lng,lat] (center of circle)      |
-|              can also be an array to plot   |
-|                   multiple circles          |
+|  |            can also be an array to plot   |
+|  |                 multiple circles          |
 | options | object: defaults                  |
 |         |   color: "red"                    |
 |         |   radius: 10                      |
@@ -65,8 +65,8 @@ Draws a circle at a point.
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
 |         |   props: {}     custom properties |
-|                can be an array if coords    |
-|                is also an array             |
+| |               can be an array if coords    |
+| |               is also an array             |
 |         |   unique: true                    |
 ```
  - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc.).  If they need to vary by point their circles will need to be plotted individually.
@@ -229,5 +229,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk5NTEyODhdfQ==
+eyJoaXN0b3J5IjpbLTcyNTIzNDUyMF19
 -->
