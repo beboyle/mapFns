@@ -181,9 +181,9 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
 ---
 ### Option Properties Common to Most Functions
- **minzoom:** The minimum zoom level at which this layer becomes visible.
- **maxzoom:** The maximum zoom level to which this layer is visible.
- **props:** This object is added to the layer source/data object to set custom properties, using the property "properties".  Usually the properties object consists of single-depth key⇢value mappings.
+ **minzoom:** The minimum zoom level at which this layer becomes visible.  
+ **maxzoom:** The maximum zoom level to which this layer is visible.  
+ **props:** This object is added to the layer source/data object to set custom properties, using the property "properties".  Usually the properties object consists of single-depth key⇢value mappings.  
  **unique:** If true, ensures that the layer id is unique (by adding a timestamp and random number).
  
 ---
@@ -230,5 +230,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzU0NTkyMV19
+eyJoaXN0b3J5IjpbMjc3OTk1MDczXX0=
 -->
