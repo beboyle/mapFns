@@ -62,8 +62,8 @@ Draws a circle at a point.
 |          | strokeWidth: 0                                                             |
 |          | strokeOpacity: 0.8 (0 to 1)                                                |
 |          | blur: 0 (0 to 1)                                                           |
-|          | zoomthreshold: [11,14]        
-|
+|          | zoomThresholds: [11,14]        |
+|          | zoomDivisor: 4   |
 |          | minzoom: 1                                                                 |
 |          | maxzoom: 22                                                                |
 |          | props: {}, custom properties can be an array if coords is also an array of points    |
@@ -232,6 +232,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODAwMTM5MSw4MzQzMTMwMjIsMjc3OT
+eyJoaXN0b3J5IjpbLTI3MzYyOTExMSw4MzQzMTMwMjIsMjc3OT
 k1MDczXX0=
 -->
