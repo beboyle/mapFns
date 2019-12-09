@@ -107,6 +107,21 @@ Draws a line from point 0 to point 1.
 
     plotLine( map, id, coords, options)
 
+| argument | argument remarks or properties                                                    |
+|----------|-----------------------------------------------------------------------------------|
+| map      | map object to plot onto                                                           |
+| id       | layer id (before the uniqueness)                                                  |
+| coords   | [ [lng0,lat0], [lng1,lat1] ]                                                      |
+| options  | object: default key: value                                                        |
+|          | color: "blue"                                                                     |
+|          | width: 1                                                                          |
+|          | opacity: 0.9 (0 to 1)                                                             |
+|          | blur: 0                                                                           |
+|          | translate: [0, 0],in px                                                           |
+|          | minzoom: 1                                                                        |
+|          | maxzoom: 22                                                                       |
+|          | props: {}, custom properties can be an array if coords is also an array of points |
+|          | unique: true                                                                      |
 ```
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness)  |
@@ -225,5 +240,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAwNzc5MjQsMTA0NTE0MjQ3Ml19
+eyJoaXN0b3J5IjpbLTEwMDcwMzQyMDMsLTEzNDAwNzc5MjQsMT
+A0NTE0MjQ3Ml19
 -->
