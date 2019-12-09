@@ -40,6 +40,11 @@ an array of points such as
 #### options
 An object that defines layout and paint properties of the plotted item.
 
+| map | map object to plot onto |   |   |   |
+|-----|-------------------------|---|---|---|
+|     |                         |   |   |   |
+|     |                         |   |   |   |
+|     |                         |   |   |   |
 
 
 ## plotCircle( )
@@ -229,5 +234,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTIzNDUyMF19
+eyJoaXN0b3J5IjpbMTc5MjgyNzI0NCwtNzI1MjM0NTIwXX0=
 -->
