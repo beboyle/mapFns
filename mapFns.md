@@ -64,7 +64,7 @@ Draws a circle at a point.
 |          | blur: 0 (0 to 1)                                                           |
 |          | minzoom: 1                                                                 |
 |          | maxzoom: 22                                                                |
-|          | props: {}, custom properties can be an array if coords is also an array    |
+|          | props: {}, custom properties can be an array if coords is also an array of points    |
 |          | unique: true                                                               |
 
 
@@ -230,5 +230,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjU5OTE0N119
+eyJoaXN0b3J5IjpbMTg2MDMzMTczNV19
 -->
