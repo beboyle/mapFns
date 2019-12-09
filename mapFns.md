@@ -58,7 +58,7 @@ Draws a circle at a point.
 |          | color: "red"                                                               |
 |          | radius: 10                                                                 |
 |          | opacity: 0.8 (0 to 1)                                                      |
-|          | strokeColor: color                                                         |
+|          | strokeColor: "color name or value"                                                         |
 |          | strokeWidth: 0                                                             |
 |          | strokeOpacity: 0.8 (0 to 1)                                                |
 |          | blur: 0 (0 to 1)                                                           |
@@ -251,6 +251,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODI1MTI3MiwtMTk2OTg3NTAxNywtNz
-I1MjM0NTIwXX0=
+eyJoaXN0b3J5IjpbMTI2ODExMzI0N119
 -->
