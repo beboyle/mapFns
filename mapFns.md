@@ -98,33 +98,6 @@ Draws text at a point.
 |          | props: {}, custom properties can be an array if coords is also an array of points |
 |          | unique: true                                                                      |
 
-```
-| map     | map object to plot onto           |
-| id      | layer id (before the uniqueness)  |
-| coords  | [lng,lat]                         |
-|              can also be an array to plot   |
-|              multiple text instances        |
-| text    | text to plot                      |
-|              must be an array if coords     |
-|              is also an array               |
-| options | object: defaults                  |
-|         |   size: 12                        |
-|         |   color: "black"                  |
-|         |   opacity: 0.8 (0 to 1)           |
-|         |   haloColor: "#f8f8f8"            |
-|         |   haloWidth: 1                    |
-|         |   haloBlur: 0                     |
-|         |   maxWidth: 32 (ems, for wrapping)|  
-|         |   rotate: 0 (degrees)             | 
-|         |   transform: "none" ("lowercase", |
-|                           "uppercase")      | 
-|         |   minzoom: 1                      |
-|         |   maxzoom: 22                     |
-|         |   props: {}     custom properties |
-|                can be an array if coords    |
-|                is also an array             |
-|         |   unique: true                    |
-```
  - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].   
  - If so, `text` *must* also be an array, so that the text for each point can vary.
  - If so, `props` *can* also vary by point *if* it is an array.  
@@ -252,6 +225,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUyNTM0MzMsLTcxNjQ3OTQ1NywxOD
-YwMzMxNzM1XX0=
+eyJoaXN0b3J5IjpbMTA0NTE0MjQ3Ml19
 -->
