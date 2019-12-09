@@ -47,6 +47,12 @@ Draws a circle at a point.
 
 ```    plotCircle( map, id, coords, options )```
 
+| argument | argument remarks or properties                                             |
+|----------|----------------------------------------------------------------------------|
+| map      | map object to plot onto                                                    |
+| id       | layer id (before the uniqueness)                                           |
+| coords   | [lng,lat] (center of circle),can also be an array to plot multiple circles |
+|          |                                                                            |
 
 
 ```
@@ -232,5 +238,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI0NDQ4MTQsLTcyNTIzNDUyMF19
+eyJoaXN0b3J5IjpbLTIwODk2Mzc5MDAsLTcyNTIzNDUyMF19
 -->
