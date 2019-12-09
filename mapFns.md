@@ -189,28 +189,11 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 |          | unique: true                                               |
 
 
-```
-| map     | map object to plot onto           |
-| id      | layer id (before the uniqueness   |
-| coords  | e.g., [[lng0,lat0], [lng1,lat1]], |
-|             [lng2,lat2], [lng0,lat0]]       |
-| text    | text to plot                      |
-| options | object: defaults                  |
-|         |   color: "#ffffff" (fill)         |
-|         |   opacity: 0.8 (fill)             |
-|         |   outlineColor: "#000000"         |
-|         |   outlineWidth: 0                 |
-|         |   outlineOpacity: 0.8             |
-|         |   outlineBlur: 0                  |
-|         |   translate: [0,0] (in px)        |
-|         |   minzoom: 1                      |
-|         |   maxzoom: 22                     |
-|         |   props: {}     custom properties |
-|         |   unique: true                    |
-```
+
 
  - Note that coords is actually an array of points (which are in turn arrays of [lng,lat].  First and last coordinate points must be the same. 
  - You *can* specify an outlineWidth greater than 1.  Because this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
+ - The coords points should be arranged in a counter-clockwise fashion.  This is the "right-hand" rule in the geojson specification.  This permits an additional polygon in the opposite fashion to repres
 
 ---
 ### Option Properties Common to Most Functions
@@ -263,6 +246,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgwMzU5MzgsMTYzNTI0MTAxNSwxMD
-UyMzgyMjhdfQ==
+eyJoaXN0b3J5IjpbLTIxNzM3MzcxNSwxNjM1MjQxMDE1LDEwNT
+IzODIyOF19
 -->
