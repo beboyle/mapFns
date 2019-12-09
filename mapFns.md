@@ -129,10 +129,27 @@ Draws a multi-segment line from point 0 to point 1 to point 2, etc.
 
     plotMultiLine( map, id, coords, options)
 
+| argument | argument remarks or properties                             |
+|----------|------------------------------------------------------------|
+| map      | map object to plot onto                                    |
+| id       | layer id (before the uniqueness)                           |
+| coords   | [ [lng0,lat0], [lng1,lat1], [lng2,lat2], [lng3,lat3], ...] |
+| options  | object: default key: value                                 |
+|          | color: "blue"                                              |
+|          | width: 1                                                   |
+|          | opacity: 0.9 (0 to 1)                                      |
+|          | blur: 0                                                    |
+|          | translate: [0, 0],in px                                    |
+|          | minzoom: 1                                                 |
+|          | maxzoom: 22                                                |
+|          | props: {}, custom properties                               |
+|          | unique: true                                               |
+
+
 ```
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness   |
-| coords  | e.g., [ [lng0,lat0], [lng1,lat1], | 
+| coords  | [ [lng0,lat0], [lng1,lat1], | 
 |              [lng2,lat2], [lng3,lat3], ...] |
 | options | object: defaults                  |
 |         |   color: "blue"                   |
@@ -226,5 +243,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjM4MjI4XX0=
+eyJoaXN0b3J5IjpbMTYzNTI0MTAxNSwxMDUyMzgyMjhdfQ==
 -->
