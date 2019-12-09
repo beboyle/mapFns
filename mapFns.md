@@ -52,7 +52,9 @@ Draws a circle at a point.
 | map      | map object to plot onto                                                    |
 | id       | layer id (before the uniqueness)                                           |
 | coords   | [lng,lat] (center of circle),can also be an array to plot multiple circles |
-|          |                                                                            |
+| options  | object: default key: value                                                 |
+|          | color: "red"                                                               |
+|          | radius: 10                                                                 |
 
 
 ```
@@ -238,5 +240,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk2Mzc5MDAsLTcyNTIzNDUyMF19
+eyJoaXN0b3J5IjpbLTE5Njk4NzUwMTcsLTcyNTIzNDUyMF19
 -->
