@@ -169,6 +169,26 @@ Draws a multi-segment line from point 0 to point 1 to point 2, etc.
 Draws a polygon (essentially a closed multi-segment line) with vertices at point 0, point 1, point 2, etc.
 
     plotPolygon( map, id, coords, options)
+
+| argument | argument remarks or properties                             |
+|----------|------------------------------------------------------------|
+| map      | map object to plot onto                                    |
+| id       | layer id (before the uniqueness)                           |
+| coords   | [ [lng0,lat0], [lng1,lat1], [lng2,lat2], ... [lng0,lat0] ] |
+| options  | object: default key: value                                 |
+|          | color: "#ffffff" (fill)                                    |
+|          | opacity: 0.8 (fill)                                        |
+|          | outlineColor: "#000000"                                    |
+|          | outlineWidth: 0                                            |
+|          | outlineOpacity: 0.8                                        |
+|          | outlineBlur: 0                                             |
+|          | translate: [0,0] (in px)                                   |
+|          | minzoom: 1                                                 |
+|          | maxzoom: 22                                                |
+|          | props: {}, custom properties                               |
+|          | unique: true                                               |
+
+
 ```
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness   |
@@ -243,5 +263,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTI0MTAxNSwxMDUyMzgyMjhdfQ==
+eyJoaXN0b3J5IjpbLTEwMDgwMzU5MzgsMTYzNTI0MTAxNSwxMD
+UyMzgyMjhdfQ==
 -->
