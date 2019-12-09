@@ -101,9 +101,11 @@ Draws text at a point.
 |          | props: {}, custom properties can be an array if coords is also an array of points |
 |          | unique: true                                                                      |
 
+- Note : for line breaks, insert a newline "\n" in the text string.
+
  - Note that `coords` can optionally be an array of points (which are in turn arrays of [lng,lat].   
- - If so, `text` *must* also be an array, so that the text for each point can vary.
- - If so, `props` *can* also vary by point *if* it is an array.  
+ -- If so, `text` *must* also be an array, so that the text for each point can vary.
+ -- If so, `props` *can* also vary by point *if* it is an array.  
  
 ## plotLine( )
 Draws a line from point 0 to point 1.
@@ -233,5 +235,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTYyMzE2NF19
+eyJoaXN0b3J5IjpbMjEwNDUxOTE2NCwxODE5NjIzMTY0XX0=
 -->
