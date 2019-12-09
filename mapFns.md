@@ -193,7 +193,7 @@ Draws a polygon (essentially a closed multi-segment line) with vertices at point
 
  - Note that coords is actually an array of points (which are in turn arrays of [lng,lat].  First and last coordinate points must be the same. 
  - You *can* specify an outlineWidth greater than 1.  Because this is not supported by Mapbox directly, doing so will automatically will create an additional layer via plotLine( ).  The layer id for the outline will have "_outline" appended to it.
- - The coords points should be arranged in a counter-clockwise fashion.  This is the "right-hand" rule in the geojson specification.  This permits an additional polygon in the opposite fashion to repres
+ - The coords points should be arranged in a counter-clockwise fashion.  This is the "right-hand" rule in the geojson specification.  This permits additional polygon(s) in the opposite fashion to represent a hole in this polygon.
 
 ---
 ### Option Properties Common to Most Functions
@@ -246,6 +246,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzM3MzcxNSwxNjM1MjQxMDE1LDEwNT
-IzODIyOF19
+eyJoaXN0b3J5IjpbMTg4MTEwNDQ3N119
 -->
