@@ -1,6 +1,6 @@
 ﻿
 # MapPlotFns
-A library of javascript functions designed to create a new Mapbox GL JS map layer with id, paint, and source.   They are essentially more convenient wrappers around map.addLayer( ).  Geojson coding is eliminated as are geojson errors.
+A library of javascript functions designed to create a new Mapbox GL JS map layer with id, paint, and source.   They are essentially more convenient wrappers around map.addLayer( ).  Geojson coding is eliminated as are geojson errorsnot required and geojson formatting errors are eliminated.
 ##### Table of Contents
 - Installation
 - Usage
@@ -230,5 +230,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTM2OTIxNl19
+eyJoaXN0b3J5IjpbODM0MzEzMDIyLC0zMDEzNjkyMTZdfQ==
 -->
