@@ -69,28 +69,7 @@ Draws a circle at a point.
 
 
 
-```
-| map     | map object to plot onto           |
-| ------- | --------------------------------- |
-| id      | layer id (before the uniqueness)  |
-| coords  | [lng,lat] (center of circle)      |
-|  |            can also be an array to plot   |
-|  |                 multiple circles          |
-| options | object: defaults                  |
-|         |   color: "red"                    |
-|         |   radius: 10                      |
-|         |   opacity: 0.8 (0 to 1)           |
-|         |   strokeColor: color              |
-|         |   strokeWidth: 0                  |
-|         |   strokeOpacity: 0.8 (0 to 1)     |
-|         |   blur: 0 (0 to 1)                |
-|         |   minzoom: 1                      |
-|         |   maxzoom: 22                     |
-|         |   props: {}     custom properties |
-| |               can be an array if coords    |
-| |               is also an array             |
-|         |   unique: true                    |
-```
+
  - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc.).  If they need to vary by point their circles will need to be plotted individually.
  
 ## plotText( )
@@ -251,5 +230,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODExMzI0N119
+eyJoaXN0b3J5IjpbMTc1NjU5OTE0N119
 -->
