@@ -110,7 +110,7 @@ Draws a line from point 0 to point 1.
 ```
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness)  |
-| coords  | e.g., [[lng0,lat0], [lng1,lat1]]  |
+| coords  | [ [lng0,lat0], [lng1,lat1] ]  |
 | options | object: defaults                  |
 |         |   color: "blue"                   |
 |         |   width: 1                        |
@@ -225,5 +225,5 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTE0MjQ3Ml19
+eyJoaXN0b3J5IjpbLTEzNDAwNzc5MjQsMTA0NTE0MjQ3Ml19
 -->
