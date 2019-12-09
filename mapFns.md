@@ -76,6 +76,28 @@ Draws a circle at a point.
 Draws text at a point.
 
     plotText( map, id, coords, text, options )
+
+| argument | argument remarks or properties                                                    |
+|----------|-----------------------------------------------------------------------------------|
+| map      | map object to plot onto                                                           |
+| id       | layer id (before the uniqueness)                                                  |
+| coords   | [lng,lat], can also be an array to plot multiple text instances                   |
+| text     | text to plot, must be an array if coords is also an array                         |
+| options  | object: default key: value                                                        |
+|          | size: 12 (font size in px)                                                        |
+|          | color: "black"                                                                    |
+|          | opacity: 0.8 (0 to 1)                                                             |
+|          | haloColor: "#f8f8f8"                                                              |
+|          | haloWidth: 1                                                                      |
+|          | haloBlur: 0                                                                       |
+|          | maxWidth: 32 (ems, for wrapping)                                                  |
+|          | rotate: 0 (degrees)                                                               |
+|          | transform: "none" ("lowercase", "uppercase")                                      |
+|          | minzoom: 1                                                                        |
+|          | maxzoom: 22                                                                       |
+|          | props: {}, custom properties can be an array if coords is also an array of points |
+|          | unique: true                                                                      |
+
 ```
 | map     | map object to plot onto           |
 | id      | layer id (before the uniqueness)  |
@@ -230,5 +252,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjQ3OTQ1NywxODYwMzMxNzM1XX0=
+eyJoaXN0b3J5IjpbLTEwMTUyNTM0MzMsLTcxNjQ3OTQ1NywxOD
+YwMzMxNzM1XX0=
 -->
