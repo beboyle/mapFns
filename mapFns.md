@@ -62,7 +62,7 @@ Draws a circle at a point.
 |          | strokeWidth: 0                                                             |
 |          | strokeOpacity: 0.8 (0 to 1)                                                |
 |          | blur: 0 (0 to 1)                                                           |
-|          | zoomThresholds: [11,14]        |
+|          | zoomtThresholds: [11,14]        |
 |          | zoomDivisor: 4   |
 |          | minzoom: 1                                                                 |
 |          | maxzoom: 22                                                                |
@@ -73,6 +73,7 @@ Draws a circle at a point.
 
 
  - Note that multiple circles can be draw as a single layer, by making `coords` an array of points (which are in turn arrays of [lng,lat] ).  If so, `props` may also vary by point if also provided as an array of objects. Other options will not vary by point (such as color, radius, etc.).  If they need to vary by point their circles will need to be plotted individually.
+ - The zoomThreshold controls when the radius starts to shrink as you zoom out (starts at the higher end of the [  ] array.   When it rea
  
 ## plotText( )
 Draws text at a point.
@@ -232,6 +233,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzYyOTExMSw4MzQzMTMwMjIsMjc3OT
+eyJoaXN0b3J5IjpbMjA3OTc3ODI2Miw4MzQzMTMwMjIsMjc3OT
 k1MDczXX0=
 -->
