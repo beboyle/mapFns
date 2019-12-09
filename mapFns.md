@@ -47,6 +47,8 @@ Draws a circle at a point.
 
 ```    plotCircle( map, id, coords, options )```
 
+
+
 | argument | argument remarks or properties                                             |
 |----------|----------------------------------------------------------------------------|
 | map      | map object to plot onto                                                    |
@@ -55,6 +57,16 @@ Draws a circle at a point.
 | options  | object: default key: value                                                 |
 |          | color: "red"                                                               |
 |          | radius: 10                                                                 |
+|          | opacity: 0.8 (0 to 1)                                                      |
+|          | strokeColor: color                                                         |
+|          | strokeWidth: 0                                                             |
+|          | strokeOpacity: 0.8 (0 to 1)                                                |
+|          | blur: 0 (0 to 1)                                                           |
+|          | minzoom: 1                                                                 |
+|          | maxzoom: 22                                                                |
+|          | props: {}, custom properties can be an array if coords is also an array    |
+|          | unique: true                                                               |
+
 
 
 ```
@@ -72,7 +84,6 @@ Draws a circle at a point.
 |         |   strokeWidth: 0                  |
 |         |   strokeOpacity: 0.8 (0 to 1)     |
 |         |   blur: 0 (0 to 1)                |
-|         |   strokeOpacity: 0.8 (0 to 1)     |
 |         |   minzoom: 1                      |
 |         |   maxzoom: 22                     |
 |         |   props: {}     custom properties |
@@ -240,5 +251,6 @@ My plan is to expand these functions to include support for simplified mapping o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk4NzUwMTcsLTcyNTIzNDUyMF19
+eyJoaXN0b3J5IjpbMTM1ODI1MTI3MiwtMTk2OTg3NTAxNywtNz
+I1MjM0NTIwXX0=
 -->
